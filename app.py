@@ -152,12 +152,99 @@ def event_handle(event,json_line):
         if msg == "น้ำลำไย":
             replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
             line_bot_api.reply_message(rtoken, replyObj)
-        elif msg == "ไปไหนดี":
-            replyObj = TextSendMessage(text="อยู่บ้านเถอะ")
+        elif msg == "น้ำใบเตย":
+            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
             line_bot_api.reply_message(rtoken, replyObj)
-        elif msg == "เหมียว":
-            replyObj = TextSendMessage(text="น้องแมว")
+        elif msg == "น้ำเก๊กฮวย":
+            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
             line_bot_api.reply_message(rtoken, replyObj)
+        elif msg == "น้ำอัญชัน":
+            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
+            line_bot_api.reply_message(rtoken, replyObj)
+        elif msg == "น้ำอัดลม":
+            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
+            line_bot_api.reply_message(rtoken, replyObj)    
+        elif msg == "น้ำเปล่า":
+            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
+            line_bot_api.reply_message(rtoken, replyObj)            
+        elif msg == "ชากุหลาบ":
+            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
+            line_bot_api.reply_message(rtoken, replyObj)     
+        elif msg == "ชามะนาว":
+            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
+            line_bot_api.reply_message(rtoken, replyObj)     
+        elif msg == "ชามะนาว":
+            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
+            line_bot_api.reply_message(rtoken, replyObj) 
+        elif msg == "ชาไทย":
+            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
+            line_bot_api.reply_message(rtoken, replyObj)
+        elif msg == "ชาเขียว":
+            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
+            line_bot_api.reply_message(rtoken, replyObj) 
+        elif msg == "ส้มตำปูปลาร้า":
+            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
+            line_bot_api.reply_message(rtoken, replyObj)    
+         elif msg == "หมูฮ้อง":
+            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
+            line_bot_api.reply_message(rtoken, replyObj)    
+        elif msg == "คอหมูย่าง":
+            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
+            line_bot_api.reply_message(rtoken, replyObj)            
+        elif msg == "แกงปู":
+            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
+            line_bot_api.reply_message(rtoken, replyObj)     
+        elif msg == "แกงคั่วหอยขม":
+            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
+            line_bot_api.reply_message(rtoken, replyObj)     
+        elif msg == "พะโล้โบราณ":
+            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
+            line_bot_api.reply_message(rtoken, replyObj) 
+        elif msg == "หมูผัดพริกแกง":
+            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
+            line_bot_api.reply_message(rtoken, replyObj)
+        elif msg == "ปลาทอดเครื่อง":
+            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
+            line_bot_api.reply_message(rtoken, replyObj) 
+        elif msg == "แกงเขียวหวานไก่":
+            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
+            line_bot_api.reply_message(rtoken, replyObj)
+        elif msg == "ผัดไทยกุ้งสด":
+            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
+            line_bot_api.reply_message(rtoken, replyObj)
+        elif msg == "ข้าวมันไก่ต้ม":
+            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
+            line_bot_api.reply_message(rtoken, replyObj)
+        elif msg == "ข้าวมันไก่ทอด":
+            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
+            line_bot_api.reply_message(rtoken, replyObj)
+        elif msg == "ข้าวขาหมู":
+            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
+            line_bot_api.reply_message(rtoken, replyObj)    
+        elif msg == "ข้าวหมูกรอบ":
+            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
+            line_bot_api.reply_message(rtoken, replyObj)            
+        elif msg == "ข้าวผัด":
+            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
+            line_bot_api.reply_message(rtoken, replyObj)     
+        elif msg == "ข้าวไข่เจียว":
+            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
+            line_bot_api.reply_message(rtoken, replyObj)     
+        elif msg == "กะเพรา":
+            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
+            line_bot_api.reply_message(rtoken, replyObj) 
+        elif msg == "ผัดซีอิ๊ว":
+            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
+            line_bot_api.reply_message(rtoken, replyObj)
+        elif msg == "ต้มจืด":
+            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
+            line_bot_api.reply_message(rtoken, replyObj) 
+        elif msg == "ไก่ทอดกระเทียม":
+            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
+            line_bot_api.reply_message(rtoken, replyObj)    
+         elif msg == "หมูทอดกระเทียม":
+            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
+            line_bot_api.reply_message(rtoken, replyObj)    
         elif msg == "covid" :
             url = "https://covid19.ddc.moph.go.th/api/Cases/today-cases-all"
             response = requests.get(url)
