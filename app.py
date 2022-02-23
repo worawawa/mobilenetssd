@@ -212,39 +212,6 @@ def event_handle(event,json_line):
         elif msg == "ผัดไทยกุ้งสด":
             replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
             line_bot_api.reply_message(rtoken, replyObj)
-        elif msg == "ข้าวมันไก่ต้ม":
-            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
-            line_bot_api.reply_message(rtoken, replyObj)
-        elif msg == "ข้าวมันไก่ทอด":
-            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
-            line_bot_api.reply_message(rtoken, replyObj)
-        elif msg == "ข้าวขาหมู":
-            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
-            line_bot_api.reply_message(rtoken, replyObj)    
-        elif msg == "ข้าวหมูกรอบ":
-            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
-            line_bot_api.reply_message(rtoken, replyObj)            
-        elif msg == "ข้าวผัด":
-            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
-            line_bot_api.reply_message(rtoken, replyObj)     
-        elif msg == "ข้าวไข่เจียว":
-            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
-            line_bot_api.reply_message(rtoken, replyObj)     
-        elif msg == "กะเพรา":
-            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
-            line_bot_api.reply_message(rtoken, replyObj) 
-        elif msg == "ผัดซีอิ๊ว":
-            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
-            line_bot_api.reply_message(rtoken, replyObj)
-        elif msg == "ต้มจืด":
-            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
-            line_bot_api.reply_message(rtoken, replyObj) 
-        elif msg == "ไก่ทอดกระเทียม":
-            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
-            line_bot_api.reply_message(rtoken, replyObj)    
-         elif msg == "หมูทอดกระเทียม":
-            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
-            line_bot_api.reply_message(rtoken, replyObj)    
         elif msg == "covid" :
             url = "https://covid19.ddc.moph.go.th/api/Cases/today-cases-all"
             response = requests.get(url)
