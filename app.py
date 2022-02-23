@@ -169,10 +169,7 @@ def event_handle(event,json_line):
             line_bot_api.reply_message(rtoken, replyObj)            
         elif msg == "ชากุหลาบ":
             replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
-            line_bot_api.reply_message(rtoken, replyObj)     
-        elif msg == "ชามะนาว":
-            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
-            line_bot_api.reply_message(rtoken, replyObj)     
+            line_bot_api.reply_message(rtoken, replyObj)        
         elif msg == "ชามะนาว":
             replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
             line_bot_api.reply_message(rtoken, replyObj) 
@@ -192,24 +189,6 @@ def event_handle(event,json_line):
             replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
             line_bot_api.reply_message(rtoken, replyObj)            
         elif msg == "แกงปู":
-            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
-            line_bot_api.reply_message(rtoken, replyObj)     
-        elif msg == "แกงคั่วหอยขม":
-            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
-            line_bot_api.reply_message(rtoken, replyObj)     
-        elif msg == "พะโล้โบราณ":
-            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
-            line_bot_api.reply_message(rtoken, replyObj) 
-        elif msg == "หมูผัดพริกแกง":
-            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
-            line_bot_api.reply_message(rtoken, replyObj)
-        elif msg == "ปลาทอดเครื่อง":
-            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
-            line_bot_api.reply_message(rtoken, replyObj) 
-        elif msg == "แกงเขียวหวานไก่":
-            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
-            line_bot_api.reply_message(rtoken, replyObj)
-        elif msg == "ผัดไทยกุ้งสด":
             replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
             line_bot_api.reply_message(rtoken, replyObj)
         elif msg == "covid" :
