@@ -150,7 +150,13 @@ def event_handle(event,json_line):
     if msgType == "text":
         msg = str(event["message"]["text"])
         if msg == "สวัสดี":
-            replyObj = TextSendMessage(text="ก็มาดิ ฮู้กๆ")
+            replyObj = TextSendMessage(text="ส้มตำปูปลาร้า 40.- 
+คอหมูย่าง 50.- 
+เเกงปู 50.- 
+เเกงคั่วหอยขม 40.- 
+พะโล้โบราณ 40.- 
+หมูผัดพริกเเกง 40.-
+")
             line_bot_api.reply_message(rtoken, replyObj)
         elif msg == "ไปไหนดี":
             replyObj = TextSendMessage(text="อยู่บ้านเถอะ")
