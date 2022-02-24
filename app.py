@@ -149,14 +149,17 @@ def event_handle(event,json_line):
 
     if msgType == "text":
         msg = str(event["message"]["text"])
-        if msg == "สวัสดี":
-            replyObj = TextSendMessage(text="ก็มาดิ ฮู้กๆ")
+        if msg == "ยกเลิก":
+            replyObj = TextSendMessage(text="น้องข้าวหอมยกเลิกให้แล้วค่ะ")
             line_bot_api.reply_message(rtoken, replyObj)
-        elif msg == "ไปไหนดี":
-            replyObj = TextSendMessage(text="อยู่บ้านเถอะ")
+        elif msg == "ไม่รับใบเสร็จ":
+            replyObj = TextSendMessage(text="ข้าวหอมรับทราบค่ะ")
             line_bot_api.reply_message(rtoken, replyObj)
-        elif msg == "เหมียว":
-            replyObj = TextSendMessage(text="น้องแมว")
+        elif msg == "ร้านเปิดกี่โมง":
+            replyObj = TextSendMessage(text="ร้าน ชอบชิม ของเราเปิดบริการตั้งเเต่ 9.30-22.00 น.หยุดทุกวันพุธค่ะ")
+            line_bot_api.reply_message(rtoken, replyObj)
+        elif msg == "ร้านปิดกี่โมง":
+            replyObj = TextSendMessage(text="ร้าน ชอบชิม ของเราเปิดบริการตั้งเเต่ 9.30-22.00 น.หยุดทุกวันพุธค่ะ")
             line_bot_api.reply_message(rtoken, replyObj)
         elif msg == "covid" :
             url = "https://covid19.ddc.moph.go.th/api/Cases/today-cases-all"
@@ -168,7 +171,7 @@ def event_handle(event,json_line):
             headers = request.headers
             json_headers = ({k:v for k, v in headers.items()})
             json_headers.update({'Host':'bots.dialogflow.com'})
-            url = "https://bots.dialogflow.com/line/5a8df0d9-f1fb-4bd6-a501-41540bcb9f4d/webhook"
+            url = "https://bots.dialogflow.com/line/13070553-3976-4cd8-a8b4-eba14fed786c/webhook"
             requests.post(url,data=json_line, headers=json_headers)
     elif msgType == "image":
         try:
