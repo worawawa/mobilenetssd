@@ -149,47 +149,14 @@ def event_handle(event,json_line):
 
     if msgType == "text":
         msg = str(event["message"]["text"])
-        if msg == "น้ำลำไย":
-            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
+        if msg == "สวัสดี":
+            replyObj = TextSendMessage(text="ก็มาดิ ฮู้กๆ")
             line_bot_api.reply_message(rtoken, replyObj)
-        elif msg == "น้ำใบเตย":
-            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
+        elif msg == "ไปไหนดี":
+            replyObj = TextSendMessage(text="อยู่บ้านเถอะ")
             line_bot_api.reply_message(rtoken, replyObj)
-        elif msg == "น้ำเก๊กฮวย":
-            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
-            line_bot_api.reply_message(rtoken, replyObj)
-        elif msg == "น้ำอัญชัน":
-            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
-            line_bot_api.reply_message(rtoken, replyObj)
-        elif msg == "น้ำอัดลม":
-            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
-            line_bot_api.reply_message(rtoken, replyObj)    
-        elif msg == "น้ำเปล่า":
-            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
-            line_bot_api.reply_message(rtoken, replyObj)            
-        elif msg == "ชากุหลาบ":
-            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
-            line_bot_api.reply_message(rtoken, replyObj)        
-        elif msg == "ชามะนาว":
-            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
-            line_bot_api.reply_message(rtoken, replyObj) 
-        elif msg == "ชาไทย":
-            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
-            line_bot_api.reply_message(rtoken, replyObj)
-        elif msg == "ชาเขียว":
-            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
-            line_bot_api.reply_message(rtoken, replyObj) 
-        elif msg == "ส้มตำปูปลาร้า":
-            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
-            line_bot_api.reply_message(rtoken, replyObj)    
-         elif msg == "หมูฮ้อง":
-            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
-            line_bot_api.reply_message(rtoken, replyObj)    
-        elif msg == "คอหมูย่าง":
-            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
-            line_bot_api.reply_message(rtoken, replyObj)            
-        elif msg == "แกงปู":
-            replyObj = TextSendMessage(text="ข้าวหอมรับออเดอร์ค่ะ")
+        elif msg == "เหมียว":
+            replyObj = TextSendMessage(text="น้องแมว")
             line_bot_api.reply_message(rtoken, replyObj)
         elif msg == "covid" :
             url = "https://covid19.ddc.moph.go.th/api/Cases/today-cases-all"
